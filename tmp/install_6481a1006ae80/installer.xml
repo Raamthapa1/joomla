@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6.0" type="plugin" group="system" method="upgrade">
+    <name/>
+	<author/>
+	<creationDate/>
+	<copyright/>
+    <license/>
+	<authorEmail/>
+	<authorUrl/>
+	<version/>
+	<description/>
+    <scriptfile>install.script.php</scriptfile>
+    <files>
+        <filename plugin="installer">installer.php</filename>
+    </files>
+    <items>
+        <item type="template" client="site" access="1" enabled="true" protected="false">
+            <dirname>Site1</dirname>
+            <name>Site1 Template</name>
+            <description>Template for Joomla</description>
+        </item>
+    </items>
+</extension>
